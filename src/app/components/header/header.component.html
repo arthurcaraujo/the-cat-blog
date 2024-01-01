@@ -1,0 +1,29 @@
+<header>
+    <a
+        href="https://arthurcaraujo.github.io/"
+        id="main-website-link"
+    >
+        <img alt="Website logo" src="../../../assets/website-logo.png" />
+    </a>
+    <h1>The Cat Blog</h1>
+    <img
+        alt="Hamburger menu icon"
+        id="menu-icon"
+        (click)="setExpandNavbar()"
+        src="../../../assets/icon-hamburgermenu.svg"
+    />
+    <nav>
+        <ul
+            id="nav-list"
+            [ngStyle]="{
+                'height': ((expandNavbar && !isDesktop) ||
+                    isDesktop) ? '100%' : '0'
+            }"
+        >
+            <li><a class="nav-link">Health</a></li>
+            <li><a class="nav-link">Nutrition</a></li>
+            <li><a class="nav-link">Training</a></li>
+            <li><a class="nav-link">Wellness</a></li>
+        </ul>
+    </nav>
+</header>
