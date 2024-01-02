@@ -13,7 +13,7 @@ export const routes: Routes = [
         component: TopicComponent
     },
     {
-        path: ":topic/:article",
+        path: ":topic/:id",
         component: ArticleComponent
     }
 ];
