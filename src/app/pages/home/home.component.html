@@ -1,14 +1,37 @@
 <main id="home">
-    <p>
-        <a [routerLink]="[topicHealth[0].topic, topicHealth[0].id()]">Go to Health 1</a>
-    </p>
-    <p>
-        <a [routerLink]="[topicHealth[1].topic, topicHealth[1].id()]">Go to Health 2</a>
-    </p>
-    <p>
-        <a [routerLink]="[topicWellness[0].topic, topicWellness[0].id()]">Go to Wellness 1</a>
-    </p>
-    <p>
-        <a [routerLink]="[topicWellness[1].topic, topicWellness[1].id()]">Go to Wellness 2</a>
-    </p>
+    <section
+        class="topic-container"
+        *ngFor="let topic of dataContent"
+    >
+        <h2 class="topic-name">
+            {{ topic[0].topic.toUpperCase() }}
+        </h2>
+        <div class="cards-container">
+            <div class="card" *ngFor="let article of topic">
+                <a
+                    class="card-img-link"
+                    [routerLink]="[article.topic, article.id()]"
+                >
+                    <img
+                        alt="{{ article.imgDescription }}"
+                        src="{{ article.img }}"
+                    />
+                </a>
+                <div class="text-content-container">
+                    <span class="card-date">
+                        {{ formatDate(article.date) }}
+                    </span>
+                    <a
+                        class="card-title-link"
+                        [routerLink]="[article.topic, article.id()]"
+                    >
+                        <h3 class="card-title">{{ article.title }}</h3>
+                    </a>
+                    <p class="card-description">
+                        {{ article.descriptionBrief }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>

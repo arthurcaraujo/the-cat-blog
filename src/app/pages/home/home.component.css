@@ -1,0 +1,74 @@
+.topic-name {
+    background-color: lightblue;
+    font-size: 1.5rem;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+}
+
+.card:first-child {
+    background-color: red;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+.card:first-child img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.card:first-child > .text-content-container {
+    padding: 0.5rem;
+}
+
+.card-date {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.card:not(:first-child) {
+    align-items: center;
+    border-top: 1.5px solid #666;
+    column-gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 30vw auto;
+    grid-template-rows: 30vw;
+    margin: 1rem 0.5rem;
+    padding-top: 1rem;
+}
+
+.card:not(:first-child) > .card-img-link {
+    background-color: red;
+    border-radius: 0.5rem;
+    grid-column: 1 / 2;
+    height: 100%;
+    width: 100%;
+}
+
+.card:not(:first-child) img {
+    border-radius: 0.5rem;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card:not(:first-child) > .text-content-container {
+    grid-column: 2 / 3;
+}
+
+.card:not(:first-child) .card-date {
+    margin-bottom: 0.5rem;
+}
+
+.card:not(:first-child) .card-title-link {
+    color: red;
+}
+
+.card:not(:first-child) .card-title {
+    font-size: 1.2rem;
+}
+
+.card:not(:first-child) .card-description {
+    display: none;
+}
