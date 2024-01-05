@@ -12,8 +12,8 @@ import { RouterModule } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
     dataContent: any = [];
-    topicHealth: any = [];
-    topicWellness: any = [];
+    topicHealth: {}[] = [];
+    topicWellness: {}[] = [];
 
     ngOnInit(): void {
         data.forEach(article => {
@@ -25,12 +25,10 @@ export class HomeComponent implements OnInit {
             }
         })
         this.dataContent.push(this.topicHealth, this.topicWellness);
-        console.log(this.dataContent);
     }
 
-    formatDate(date: Date) {
-        const options: {} = {year: "numeric", month: "long", day: 'numeric' };
-
-        return date.toLocaleDateString("en-US", options)
+    formatDate(date: Date): string {
+        const options: {} = { year: "numeric", month: "long", day: "numeric" };
+        return date.toLocaleDateString("en-US", options);
     }
 }

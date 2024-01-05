@@ -51,7 +51,6 @@ export default [
         topic: "health"
     },
     {
-        // date: new Date().toDateString(),
         date: new Date(new Date().setDate(new Date().getDate() - 1)),
         descriptionBrief: "Brief text 3",
         descriptionDetailed: ["Detailed 3", "More detailed 3"],
@@ -83,6 +82,23 @@ export default [
         img: "./assets/sick-cat.jpg",
         imgDescription: "Sick cat",
         title: "How to tell if your cat is sick 4",
+        topic: "wellness"
+    },
+    {
+        date: new Date(new Date().setDate(new Date().getDate() - 100)),
+        descriptionBrief: "Brief text 5",
+        descriptionDetailed: ["Detailed 5", "More detailed 5"],
+        id: function() {
+            let text = "";
+            for (let char of this.title) {
+                if (char === " ") text += "-"
+                else text += char
+            }
+            return text.toLowerCase();
+        },
+        img: "./assets/sick-cat.jpg",
+        imgDescription: "Sick cat",
+        title: "How to tell if your cat is sick 5",
         topic: "wellness"
     }
 ]
