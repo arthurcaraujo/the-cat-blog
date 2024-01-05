@@ -1,0 +1,43 @@
+footer {
+    background-color: rgb(255, 150, 50);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+    footer {
+        margin: 2rem 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        font-size: 1.1rem;
+        padding: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        font-size: 1.5rem;
+        margin: 3rem 0 0;
+        padding: 3rem;
+    }
+}
