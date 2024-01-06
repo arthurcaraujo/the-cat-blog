@@ -1,3 +1,17 @@
-<p>article works!</p>
-<h3>{{ contentTitle }}</h3>
-<p>{{ contentDescription }}</p>
+<article class="article">
+    <h2 class="article-topic">{{ articleTopic }}</h2>
+    <h3 class="article-title">{{ articleTitle }}</h3>
+    <p class="article-brief-description">
+        {{ articleDescriptionBrief }}
+    </p>
+    <span class="article-date">
+        {{ formatDate(articleDate) }}
+    </span>
+    <img alt="{{ articleImgDescription }}" src="{{ articleImg }}" />
+    <p
+        class="article-detailed-description"
+        *ngFor="let paragraph of articleDescriptionDetailed"
+    >
+        {{ paragraph }}
+    </p>
+</article>
