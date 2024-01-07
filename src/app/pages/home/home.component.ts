@@ -12,19 +12,32 @@ import { RouterModule } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
     dataContent: any = [];
+    topicCuriosities: {}[] = [];
     topicHealth: {}[] = [];
-    topicWellness: {}[] = [];
+    topicNutrition: {}[] = [];
+    topicTraining: {}[] = [];
 
     ngOnInit(): void {
         data.forEach(article => {
-            if (article.topic === "health") {
+            if (article.topic === "curiosities") {
+                this.topicCuriosities.push(article)
+            }
+            else if (article.topic === "health") {
                 this.topicHealth.push(article)
             }
-            else if (article.topic === "wellness") {
-                this.topicWellness.push(article)
+            else if (article.topic === "nutrition") {
+                this.topicNutrition.push(article)
+            }
+            else if (article.topic === "training") {
+                this.topicTraining.push(article)
             }
         })
-        this.dataContent.push(this.topicHealth, this.topicWellness);
+        this.dataContent.push(
+            this.topicCuriosities,
+            this.topicHealth,
+            this.topicNutrition,
+            this.topicTraining
+        );
     }
 
     formatDate(date: Date): string {
