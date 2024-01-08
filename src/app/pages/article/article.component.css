@@ -1,0 +1,90 @@
+.article {
+    margin: 2rem 0.5rem;
+}
+
+.article-topic {
+    color: rgb(0, 100, 200);
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.article-topic:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.article-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.article-brief-description {
+    color: #222;
+    margin: 1rem 0;
+}
+
+.article-date {
+    color: #444;
+    display: block;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+.article > img {
+    display: block;
+    margin: 1rem 0 2rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+.article-detailed-description {
+    margin: 1rem 0;
+}
+
+@media (min-width: 576px) {
+    .article {
+        margin: 2rem auto;
+        max-width: 33.75rem;  /*  33.75rem == 540px  */
+    }
+}
+
+@media (min-width: 768px) {
+    .article {
+        max-width: 45rem;  /*  45rem == 720px  */
+    }
+}
+
+@media (min-width: 992px) {
+    .article {
+        max-width: 60rem;  /*  60rem == 960px  */
+    }
+
+    .article-title {
+        font-size: 2rem;
+    }
+
+    .article > img {
+        height: 30rem;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .article {
+        max-width: 71.25rem;  /*  71.25rem == 1140px  */
+    }
+
+    .article-topic {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .article-title {
+        font-size: 2.5rem;
+    }
+
+    .article > img {
+        height: 35.625rem;
+    }
+}
