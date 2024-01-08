@@ -1,4 +1,4 @@
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import data from '../../data';
@@ -6,7 +6,7 @@ import data from '../../data';
 @Component({
     selector: 'app-article',
     standalone: true,
-    imports: [CommonModule],
+    imports: [CommonModule, RouterModule],
     templateUrl: './article.component.html',
     styleUrl: './article.component.css'
 })

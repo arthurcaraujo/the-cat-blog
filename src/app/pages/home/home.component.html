@@ -3,9 +3,11 @@
         class="topic-container"
         *ngFor="let topic of dataContent"
     >
-        <h2 class="topic-name">
-            {{ topic[0].topic.toUpperCase() }}
-        </h2>
+        <a [routerLink]="[topic[0].topic]">
+            <h2 class="topic-name">
+                {{ topic[0].topic.toUpperCase() }}
+            </h2>
+        </a>
         <div class="cards-container">
             <div class="card" *ngFor="let article of topic">
                 <a
