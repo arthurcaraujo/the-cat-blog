@@ -1,7 +1,9 @@
 <section class="topic-page">
-    <span>» <a [routerLink]="['../']">HOME</a></span>
+    <span class="breadcrumb-navigation">
+        » <a [routerLink]="['../']">HOME</a>
+    </span>
 
-    <h2>{{ currentTopicArray[0].topic.toUpperCase() }}</h2>
+    <h2 class="topic-name">{{ currentTopicArray[0].topic.toUpperCase() }}</h2>
 
     <div class="cards-container">
         <div class="card" *ngFor="let article of currentTopicArray">
@@ -20,7 +22,7 @@
                 </span>
                 <a
                     class="card-title-link"
-                    [routerLink]="[article.topic, article.id()]"
+                    [routerLink]="[article.id()]"
                 >
                     <h3 class="card-title">{{ article.title }}</h3>
                 </a>
