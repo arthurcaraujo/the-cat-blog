@@ -23,7 +23,7 @@ export default [
         topic: "curiosities"
     },
     {
-        date: new Date(),
+        date: new Date(new Date().setDate(new Date().getDate() - 15)),
         descriptionBrief: "Cats are curious creatures. They love poking their paws in boxes and squeezing into tight places. Judging from all the trouble they get into, it's no wonder curious cats are said to have nine lives!",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -46,7 +46,7 @@ export default [
         topic: "curiosities"
     },
     {
-        date: new Date(),
+        date: new Date(new Date().setDate(new Date().getDate() - 30)),
         descriptionBrief: "Cats have tiny scent glands on their feet, and when they scratch furniture they leave just a little bit of their smell on it. This tells other cats, “This sofa is in my territory, and these are my people—keep away!”",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -69,7 +69,7 @@ export default [
         topic: "curiosities"
     },
     {
-        date: new Date(),
+        date: new Date(new Date().setDate(new Date().getDate() - 45)),
         descriptionBrief: "The dewclaw is the tiny little claw found up on the inner wrist of your cat—the one that is hard to clip and that overgrows very quickly. Cats can use it very effectively to grip onto a tree when climbing or to hold onto prey when hunting.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -92,7 +92,7 @@ export default [
         topic: "curiosities"
     },
     {
-        date: new Date(),
+        date: new Date(new Date().setDate(new Date().getDate() - 60)),
         descriptionBrief: "Have you ever noticed that cats walk like camels and giraffes? Their walking sequence is both right feet first, followed by both left feet, so they move half of their body forward at once.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -115,7 +115,7 @@ export default [
         topic: "curiosities"
     },
     {
-        date: new Date(),
+        date: new Date(new Date().setDate(new Date().getDate() - 4)),
         descriptionBrief: "Experts share how to tell if your cat is sick. Some variations from normal behavior are subtle while other signs are easier to pinpoint.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -138,7 +138,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 2)),
+        date: new Date(new Date().setDate(new Date().getDate() - 12)),
         descriptionBrief: "Cats don't actually have nine lives, so you need to do what you can to protect them. The key? The right vaccinations. Shots protect your cat from diseases caused by viruses and bacteria. They can also strengthen their immune system.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -161,7 +161,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 4)),
+        date: new Date(new Date().setDate(new Date().getDate() - 19)),
         descriptionBrief: "Cats clean themselves, so cat ear cleaning is usually not needed. However, some cats are more likely to experience wax buildup and ear infections. If you have concerns about your cat's ears, talk to your veterinarian about what you can do and use these tips to clean and medicate your cat's ears.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -184,7 +184,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 4)),
+        date: new Date(new Date().setDate(new Date().getDate() - 28)),
         descriptionBrief: "Aging cats may have behavior changes like forgetting where you put their litter box, being less active, or acting more aggressive. If your older cat starts acting differently, it might be a sign of an aging problem.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -207,7 +207,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 4)),
+        date: new Date(new Date().setDate(new Date().getDate() - 37)),
         descriptionBrief: "Cat owners tend to be very familiar with their pets' bathroom habits, thanks to litterbox duty. Cleaning the box isn't anyone's favorite chore, but it can be an excellent way to keep an eye on your pet's urinary tract health.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -230,7 +230,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 4)),
+        date: new Date(new Date().setDate(new Date().getDate() - 51)),
         descriptionBrief: "Feline upper respiratory infection is a common illness in cats. It's similar to a cold, but it can be much more serious. It's caused by different viruses or bacteria, and it targets the upper airway -- the nose, throat, and sinuses -- rather than the lungs.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -253,7 +253,7 @@ export default [
         topic: "health"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 7)),
         descriptionBrief: "Cats are curious creatures by nature, and this inquisitive disposition often extends to their diet. However, as pet parents, it is incumbent upon us to be vigilant about what goes into their feeding bowls. Keeping them away from potentially harmful foods is not just good practice; it can be lifesaving.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -276,7 +276,7 @@ export default [
         topic: "nutrition"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 13)),
         descriptionBrief: "A study published in the scientific journal PLOS ONE reveals that cats fed on a plant based diet were found to be generally more healthy than those on a meat diet. The study was based on a survey of 1,369 cat owners or “guardians” who fed plant-based or meat-based diets to their cats for at least one year.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -299,7 +299,7 @@ export default [
         topic: "nutrition"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 21)),
         descriptionBrief: "New research finds that cats can learn about the nutrient content of their food over time and then select foods to reach a target composition, overriding flavour.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -322,7 +322,7 @@ export default [
         topic: "nutrition"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 34)),
         descriptionBrief: "As a cat lover, you'll want your furry friend to lead a long, healthy, happy and active life. One of the best known ways to achieve this is by making sure your cat's diet has the right balance of the five major nutrient groups: protein, fats & oils, vitamins, minerals and carbohydrates.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -345,7 +345,7 @@ export default [
         topic: "nutrition"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 49)),
         descriptionBrief: "Cats can eat watermelon. But like any human food, be careful feeding your feline the fruit. Watermelon is non-toxic to cats and can be given as a treat from time to time, according to Purina. If you give your cat watermelon, it should be seedless. Watermelon seeds contain trace amounts of cyanide which is toxic to cats.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -368,7 +368,7 @@ export default [
         topic: "nutrition"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 1)),
+        date: new Date(new Date().setDate(new Date().getDate() - 8)),
         descriptionBrief: "Scratching is a normal, natural, and necessary behavior for cats. You cannot and should not stop a cat from scratching altogether, but you can help cats fulfill their natural need to scratch (and not do damage to the furniture) by redirecting their behavior.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -391,7 +391,7 @@ export default [
         topic: "training"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 3)),
+        date: new Date(new Date().setDate(new Date().getDate() - 19)),
         descriptionBrief: "This year a French study found that cats know when their owners are talking to them, adding to a growing body of evidence that cats might be more bonded to us than we think. So if cats rival dogs as man's best friends, could we train them in the same way?",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -414,7 +414,7 @@ export default [
         topic: "training"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 100)),
+        date: new Date(new Date().setDate(new Date().getDate() - 31)),
         descriptionBrief: "Play biting is natural kitten behavior. If your kitten bites your hand during play, end the session immediately. Whatever you do, don't jerk your hand away. This just makes the game even more fun! Toys and balls are safer objects of prey.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -437,7 +437,7 @@ export default [
         topic: "training"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 100)),
+        date: new Date(new Date().setDate(new Date().getDate() - 44)),
         descriptionBrief: "Cats recognize the sound of their food being poured into their dish, but do cats know their names? Yep! And it's very useful when they're hiding, they've gone missing or you want to get them to move away from something dangerous. Keep in mind that the best cat names are short and simple.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -460,7 +460,7 @@ export default [
         topic: "training"
     },
     {
-        date: new Date(new Date().setDate(new Date().getDate() - 100)),
+        date: new Date(new Date().setDate(new Date().getDate() - 63)),
         descriptionBrief: "Training cats to walk on a leash may seem odd, but it can come in very useful when you're taking a road trip and stop for exercise, or when you're flying with a cat and TSA needs you to take your cat out of its carrier. Not to mention, it can be fun to take a walk together around the neighborhood! But don't be surprised if your cat has a different walking style than a dog.",
         descriptionDetailed: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
