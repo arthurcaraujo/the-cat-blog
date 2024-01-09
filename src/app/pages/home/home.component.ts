@@ -19,16 +19,24 @@ export class HomeComponent implements OnInit {
 
     ngOnInit(): void {
         data.forEach(article => {
-            if (article.topic === "curiosities") {
+            if (article.topic === "curiosities" &&
+                    this.topicCuriosities.length < 3
+            ) {
                 this.topicCuriosities.push(article)
             }
-            else if (article.topic === "health") {
+            else if (article.topic === "health" &&
+                    this.topicHealth.length < 3
+            ) {
                 this.topicHealth.push(article)
             }
-            else if (article.topic === "nutrition") {
+            else if (article.topic === "nutrition" &&
+                    this.topicNutrition.length < 3
+            ) {
                 this.topicNutrition.push(article)
             }
-            else if (article.topic === "training") {
+            else if (article.topic === "training" &&
+                    this.topicTraining.length < 3
+            ) {
                 this.topicTraining.push(article)
             }
         })
