@@ -8,6 +8,10 @@
     padding: 0.5rem;
 }
 
+.topic-name:hover {
+    text-shadow: 0.125rem 0.125rem 0.125rem #000;
+}
+
 .card img {
     transition: box-shadow 0.3s, transform 0.3s;
 }
