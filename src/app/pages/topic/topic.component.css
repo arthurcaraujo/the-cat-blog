@@ -1,5 +1,5 @@
 .topic-page {
-    margin: 1.5rem 0.5rem 2rem;
+    margin: 2rem 0.5rem;
 }
 
 .breadcrumb-navigation {
@@ -129,7 +129,7 @@
 
 @media (min-width: 576px) {
     .topic-page {
-        margin: 1.5rem auto 2rem;
+        margin: 2rem auto;
         max-width: 33.75rem;  /*  33.75rem == 540px  */
     }
 

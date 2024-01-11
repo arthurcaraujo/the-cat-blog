@@ -1,18 +1,31 @@
 <header>
-    <a
-        href="https://arthurcaraujo.github.io/"
-        id="main-website-link"
+    <div id="top-navbar">
+        <a
+            href="https://arthurcaraujo.github.io/"
+            id="main-website-link"
+        >
+            <img alt="Website logo" src="../../../assets/website-logo.png" />
+            <span id="logo-first-name">ARTHUR</span>
+            <span id="logo-last-name">C. ARAÚJO</span>
+        </a>
+        <h1><a [routerLink]="['']">The Cat Blog</a></h1>
+        <img
+            alt="Hamburger menu icon"
+            id="menu-icon"
+            (click)="setExpandNavbar()"
+            src="../../../assets/icon-hamburgermenu.svg"
+        />
+    </div>
+    <nav
+        [ngStyle]="{
+            'borderBottom': ((expandNavbar && !isDesktop) || isDesktop)
+                ? '0.125rem solid rgb(255, 135, 35)' : 'none',
+            'borderLeft': ((expandNavbar && !isDesktop) || isDesktop)
+                ? '0.125rem solid rgb(255, 135, 35)' : 'none',
+            'borderRight': ((expandNavbar && !isDesktop) || isDesktop)
+                ? '0.125rem solid rgb(255, 135, 35)' : 'none',
+        }"
     >
-        <img alt="Website logo" src="../../../assets/website-logo.png" />
-    </a>
-    <h1><a [routerLink]="['']">The Cat Blog</a></h1>
-    <img
-        alt="Hamburger menu icon"
-        id="menu-icon"
-        (click)="setExpandNavbar()"
-        src="../../../assets/icon-hamburgermenu.svg"
-    />
-    <nav>
         <ul
             id="nav-list"
             [ngStyle]="{
@@ -20,10 +33,18 @@
                     isDesktop) ? '100%' : '0'
             }"
         >
-            <li><a class="nav-link">Curiosities</a></li>
-            <li><a class="nav-link">Health</a></li>
-            <li><a class="nav-link">Nutrition</a></li>
-            <li><a class="nav-link">Training</a></li>
+            <li><a class="nav-link" href="/curiosities">
+                Curiosities
+            </a></li>
+            <li><a class="nav-link" href="/health">
+                Health
+            </a></li>
+            <li><a class="nav-link" href="/nutrition">
+                Nutrition
+            </a></li>
+            <li><a class="nav-link" href="/training">
+                Training
+            </a></li>
         </ul>
     </nav>
 </header>
