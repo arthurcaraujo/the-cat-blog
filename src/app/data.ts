@@ -17,7 +17,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-belly.jpg",
+        img: "assets/cat-belly.jpg",
         imgDescription: "Cat lying on a sofa",
         title: "That adorable paunch on a cat's belly is also found in lions and tigers",
         topic: "curiosities"
