@@ -1,5 +1,5 @@
 # The Cat Blog
 
-https://arthurcaraujo.github.io/the-cat-blog/
+<a href="https://arthurcaraujo.github.io/the-cat-blog/" target="_blank">https://arthurcaraujo.github.io/the-cat-blog/</a>
 
-<img alt="Website screenshot" src="./src/assets/website-screenshot.png" width="1040px">
+<a href="https://arthurcaraujo.github.io/the-cat-blog/" target="_blank" ><img alt="Website screenshot" src="./src/assets/website-screenshot.png" width="1040px"></a>
