@@ -40,7 +40,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/curious-cat.jpg",
+        img: "assets/curious-cat.jpg",
         imgDescription: "Curious black cat",
         title: "Why are cats so curious?",
         topic: "curiosities"
@@ -63,7 +63,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-scratching.jpeg",
+        img: "assets/cat-scratching.jpeg",
         imgDescription: "Cat scratching furniture",
         title: "Cats that scratch furniture are often marking their territory",
         topic: "curiosities"
@@ -86,7 +86,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-dewclaw.jpg",
+        img: "assets/cat-dewclaw.jpg",
         imgDescription: "Cat dewclaw",
         title: "Cats use dewclaws to help them grip",
         topic: "curiosities"
@@ -109,7 +109,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/kitten-walking.jpg",
+        img: "assets/kitten-walking.jpg",
         imgDescription: "A kitten walking",
         title: "Cats walk like camels and giraffes",
         topic: "curiosities"
@@ -132,7 +132,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/sick-cat.jpg",
+        img: "assets/sick-cat.jpg",
         imgDescription: "Sick cat",
         title: "How to tell if your cat is sick",
         topic: "health"
@@ -155,7 +155,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-vaccination.jpg",
+        img: "assets/cat-vaccination.jpg",
         imgDescription: "A cat getting a vaccine",
         title: "What to know about cat vaccinations",
         topic: "health"
@@ -178,7 +178,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/clean-cats-ears.jpg",
+        img: "assets/clean-cats-ears.jpg",
         imgDescription: "Woman cleaning a cat's ears",
         title: "How to clean and medicate your cat's ears",
         topic: "health"
@@ -201,7 +201,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/older-cat.jpg",
+        img: "assets/older-cat.jpg",
         imgDescription: "Woman cleaning a cat's ears",
         title: "Behavior problems in older cats",
         topic: "health"
@@ -224,7 +224,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-peeing.png",
+        img: "assets/cat-peeing.png",
         imgDescription: "Cat peeing",
         title: "Cat urinary tract problems and infections",
         topic: "health"
@@ -247,7 +247,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/kitten-with-tissue.jpg",
+        img: "assets/kitten-with-tissue.jpg",
         imgDescription: "Kitten with tissue",
         title: "Feline upper respiratory infection",
         topic: "health"
@@ -270,7 +270,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-junk-food.jpg",
+        img: "assets/cat-junk-food.jpg",
         imgDescription: "Cat eating junk food",
         title: "Surprising foods you need to keep away from your cat",
         topic: "nutrition"
@@ -293,7 +293,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-and-vegetables.jpg",
+        img: "assets/cat-and-vegetables.jpg",
         imgDescription: "Cat and vegetables",
         title: "Plant-based diets may be healthier for cats",
         topic: "nutrition"
@@ -316,7 +316,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-food.jpg",
+        img: "assets/cat-food.jpg",
         imgDescription: "Cat food",
         title: "Cat foods need the perfect combination of great flavour and nutrition",
         topic: "nutrition"
@@ -339,7 +339,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-eating.jpg",
+        img: "assets/cat-eating.jpg",
         imgDescription: "Cat eating",
         title: "The basics of cat feeding and feline nutrition",
         topic: "nutrition"
@@ -362,7 +362,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-eating-watermelon.jpg",
+        img: "assets/cat-eating-watermelon.jpg",
         imgDescription: "Cat eating watermelon",
         title: "Can cats eat watermelon?",
         topic: "nutrition"
@@ -385,7 +385,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-scratching-2.jpeg",
+        img: "assets/cat-scratching-2.jpeg",
         imgDescription: "Cat scratching",
         title: "6 ways to redirect cat scratching",
         topic: "training"
@@ -408,7 +408,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/training-cat.jpg",
+        img: "assets/training-cat.jpg",
         imgDescription: "Training a cat",
         title: "Can I train my cat like a dog?",
         topic: "training"
@@ -431,7 +431,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-biting.jpg",
+        img: "assets/cat-biting.jpg",
         imgDescription: "A cat biting",
         title: "Discouraging biting",
         topic: "training"
@@ -454,7 +454,7 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/thinking-cat.jpg",
+        img: "assets/thinking-cat.jpg",
         imgDescription: "Cat thinking",
         title: "How to train a cat to recognize its name",
         topic: "training"
@@ -477,8 +477,8 @@ export default [
             }
             return text.toLowerCase();
         },
-        img: "./assets/cat-walking-on-leash.jpg",
-        imgDescription: "",
+        img: "assets/cat-walking-on-leash.jpg",
+        imgDescription: "A white cat walking on a leash",
         title: "Training a cat to walk on a leash",
         topic: "training"
     }
